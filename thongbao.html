@@ -8,27 +8,51 @@
 </head>
 <body>
     <!-- *******************************************************   MENU   ************************************************************* -->
-    <div class="header">
+    <nav class="header navbar navbar-expand-sm bg-light navbar-light">
         <div class="header_logo">
-            <img src="./img/Image1.png" alt="">
+            <img src="./img/Image2.png" alt="">
         </div>
-        <div>
-            <ul class="header_menu">
-                <li><a href="">CHẤM CÔNG</a></li>
-                <li><a href="">DANH SÁCH OUTLET</a></li>
-                <li><a href="">THÔNG BÁO</a></li>
-            </ul>
-        </div>
-    </div>
+        <ul  class="navbar-nav header_menu">
+            <li class="nav-item active">
+                <a class="nav-link" href="">CHẤM CÔNG</a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="">DANH SÁCH OUTLET</a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="">THÔNG BÁO</a>
+            </li>
+        </ul>
+      </nav>
 
     <!-- *******************************************************   TÌM KIẾM   ************************************************************* -->
     <div class="find">
         <div>
-            <label for=""></label>
-            <input type="text" id="fname" name="firstname" placeholder="Tiêu Đề">
+            <p>Tiêu Đề</p>
+            <input type="text" id="fname" name="firstname" placeholder="">
         </div>
-        <textarea placeholder="Nội Dung"></textarea>
+        <div>
+            <p>Nội Dung</p>
+            <textarea placeholder=""></textarea>
+        </div>
         <input type="submit" value="Thêm">
     </div>
+
+<!-- *******************************************************   DANH SÁCH THÔNG BÁO   ************************************************************* -->
+    <h3>DANH SÁCH THÔNG BÁO</h3>
+    <table id="customers2" >
+        <tr>
+            <th style="width: 20%;">STT</th>
+            <th>Thời Gian</th>
+            <th>Tiêu Đề</th>
+            <th>Nội Dung</th>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
 </body>
 </html>

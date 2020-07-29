@@ -5,17 +5,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel='stylesheet' type='text/css' href='dangnhap.css' />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
     <div class="login">
         <div class="login_img"><img src="./img/Image1.png" alt=""></div>
         <div class="login_form">
-            <form action="">
+            <form >
                 <input type="text" id="fname" name="firstname" placeholder="Tài Khoản">
                 <input type="password" id="lname" name="lastname" placeholder="Mật Khẩu">
-                <input type="submit" value="Đăng Nhập">
+                <input type="submit" value="Đăng Nhập" onclick="myFunction()">
+                <div id="load">
+                    <button class="buttonload" >
+                        <i class="fa fa-spinner fa-spin"></i>Loading
+                      </button>
+                </div>
               </form>
         </div>
     </div>
+
+
+    <script>
+        function myFunction() {
+          document.getElementById("load").style.display = "inline";
+        }
+    </script>
 </body>
 </html>
