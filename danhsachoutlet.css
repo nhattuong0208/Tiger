@@ -154,6 +154,10 @@ input[type=text], select {
     background-color: white;
     padding-left:7px ;
   }
+  .modal-dialog label{
+    margin:0;
+    font-weight: bold;
+}
   #myModal form{
       padding:0px 30px;
   }
