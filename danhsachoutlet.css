@@ -149,6 +149,10 @@ input[type=text], select {
   .modal-dialog{
       width:380px!important;
   }
+  .modal-dialog input {
+    background-color: white;
+    padding-left:7px ;
+  }
   #myModal form{
       padding:0px 30px;
   }
