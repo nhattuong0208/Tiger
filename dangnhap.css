@@ -12,6 +12,7 @@ body{
 }
 .login_form form{
     text-align: center;
+    border: none;
 }
 .login_img{
     text-align: center;
@@ -23,7 +24,7 @@ body{
 }
 
 
-input[type=text], select {
+input[type=text],input[type=password], select {
     width: 80%;
     padding: 12px 20px;
     margin: 4px 0;

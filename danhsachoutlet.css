@@ -7,6 +7,10 @@ body, html {
     margin: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
+
+input:focus{
+    outline: none;
+  }
   
 body{
     background-color: #E5E5E5;
@@ -41,27 +45,10 @@ body{
     align-items: center;
     position: relative;
 }
-
-.header_menu li:hover{
-    background-color: white;
-}
 .header_menu li:hover a{
-    color: #104365;
+    color: #EB8A01;
+    text-decoration: none;
 }
-
-/* .header_user{
-    flex-grow: 3;
-    justify-content: right;
-    display: flex;
-    padding-right: 20px;
-    align-items: center;
-    color:white;
-    align-content: flex-end;
-}
-.header_user p{
-    margin:0;
-} */
-
 /* ****************************************************   TÌM KIẾM   *********************************************************** */
 .find{
     padding: 25px 40px;
@@ -122,13 +109,13 @@ input[type=text], select {
     padding-top: 12px;
     padding-bottom: 12px;
     text-align: center;
-    background-color: #4CAF50;
-    color: white;
+    background-color: #EB8A01;
+    color: black;
   }
 
 
   .button {
-    background-color: #4CAF50; /* Green */
+    background-color: #EB8A01; /* Green */
     border: none;
     color: white;
     padding: 5px 20px;
@@ -159,9 +146,6 @@ input[type=text], select {
   }
 
   /* ****************************************************   THÊM OUTLET   *********************************************************** */
-  #myModal h4{
-      text-align: center;
-  }
   .modal-dialog{
       width:380px!important;
   }
@@ -170,7 +154,7 @@ input[type=text], select {
   }
   #addsubmit{
       margin:15px 53px;
-      background-color: #008CBA;
+      background-color: #EB8A01;
   }
 
 
@@ -182,7 +166,7 @@ input[type=text], select {
 }
 #editsubmit{
     margin:15px 53px;
-    background-color: #008CBA;
+    background-color: #EB8A01;
 }
 
 
