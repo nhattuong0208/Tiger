@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel='stylesheet' type='text/css' href='danhsachoutlet.css' />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+
+    <!-- *******************************************************   MENU   ************************************************************* -->
+    <div class="header">
+        <div class="header_logo">
+            <img src="./img/Image1.png" alt="">
+        </div>
+        <div>
+            <ul class="header_menu">
+                <li><a href="">CHẤM CÔNG</a></li>
+                <li><a href="">DANH SÁCH OUTLET</a></li>
+                <li><a href="">THÔNG BÁO</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- *******************************************************   TÌM KIẾM   ************************************************************* -->
+    <div class="find">
+        <input type="text" id="fname" name="firstname" placeholder="Tên Outlet">
+        <input type="text" id="lname" name="lastname" placeholder="Mã Outlet">
+        <input type="submit" value="Tìm">
+    </div>
+
+    <!-- ***************************************************   DANH SÁCH OUTLET   ********************************************************** -->
+    <div class="listoutlet">
+        <h3>DANH SÁCH OUTLET</h3>
+        <div>
+            <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">+ Thêm Outlet</button>
+        </div>
+    </div>
+    
+    <table id="customers">
+        <tr>
+            <th>STT</th>
+            <th>Mã Outlet</th>
+            <th>Tên Outlet</th>
+            <th>Địa Chỉ</th>
+            <th>Trạng Thái</th>
+            <th></th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>mã 1</td>
+            <td>tên 1</td>
+            <td>địa chỉ</td>
+            <td>trạng thái</td>
+            <td><button data-toggle="modal" data-target="#myModal2" class="button button2">Sửa</button></td>
+        </tr>
+    </table>
+
+    <!-- ***************************************************   THÊM OUTLET   ********************************************************** -->
+  
+
+
+    <div class="modal fade" id="myModal" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">THÊM OUTLET</h4>
+                </div>
+                <form action="">
+                    <label for="fname">Mã Outlet</label><br>
+                    <input type="text" id="" name="" value=""><br>
+                    <label for="lname">Tên Outlet</label><br>
+                    <input type="text" id="" name="" value=""><br>
+                    <label for="lname">Địa Chỉ</label><br>
+                    <input type="text" id="" name="" value=""><br>
+                    <label for="lname">Trạng Thái</label><br>
+                    <input type="text" id="" name="" value=""><br>
+                    <input id="addsubmit" type="submit" value="Thêm">
+                  </form> 
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="modal fade" id="myModal2" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">ĐIỀU CHỈNH THÔNG TIN OUTLET</h4>
+                </div>
+                <form action="">
+                    <label for="fname">Mã Outlet</label><br>
+                    <input type="text" id="" name="" value="mã"><br>
+                    <label for="lname">Tên Outlet</label><br>
+                    <input type="text" id="" name="" value="tên"><br>
+                    <label for="lname">Địa Chỉ</label><br>
+                    <input type="text" id="" name="" value="địa chỉ"><br>
+                    <label for="lname">Trạng Thái</label><br>
+                    <input type="text" id="" name="" value="trạng thái"><br>
+                    <input id="editsubmit" type="submit" value="Sửa">
+                  </form> 
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
