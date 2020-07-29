@@ -1,0 +1,52 @@
+body{
+    background-image: url(./img/background4.png);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.login_logo{
+    width: 100%;
+    text-align: center;
+    margin-top:200px
+}
+.login_logo img{
+    height:100px;
+    padding-right: 20px;
+}
+.login_form{
+    margin:140px auto;
+    width:550px;
+    height: 150px;
+    padding:20px;
+}
+.login_form form{
+    text-align: center;
+}
+
+
+
+input[type=text], select {
+    width: 80%;
+    padding: 12px 20px;
+    margin: 4px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: #fcf6f6;
+  }
+  
+  input[type=submit] {
+    width: 80%;
+    background-color: #DA1930;
+    border-radius: 4px;
+    color: white;
+    padding: 10px 20px;
+    margin: 4px 0;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bold;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #ff4d4d;
+  }
